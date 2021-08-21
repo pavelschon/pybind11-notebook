@@ -9,9 +9,6 @@ conda install -c conda-forge notebook
 
 ## Notebook
 
-```
-In [1]:
-```
 ```c++
 #pragma cling add_include_path("/home/jupyter/miniconda3/include/python3.9/")
 #pragma cling add_library_path("/home/jupyter/miniconda3/lib")
@@ -30,16 +27,11 @@ void py_print( py::object o )
 py::scoped_interpreter python;
 ```
 ---
-```
-In [2]:
-```
+
 ```c++
 py::str s{"Hello world"};
 ```
 ---
-```
-In [3]:
-```
 ```c++
 py_print(s);
 ```
