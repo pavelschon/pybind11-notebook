@@ -64,8 +64,10 @@ py_print(py::module::import("hello").attr("world")());
 
 
 ## Remarks
-* The buildin function `py::print()` prints into the terminal where you're running jupyter notebook, hence using custom `py_print()`. Suggestions how to redirect output of `py::print()` into the notebook are welcomed.
-* Exception handling with `catch(const py::error_already_set& e)` sometimes works, sometimes not. Suggestions how to fix that are welcomed.
+* The buildin function `py::print()` prints into the terminal where you're running jupyter notebook, hence using custom `py_print()`.
+  Suggestions how to redirect output of `py::print()` into the notebook are welcomed.
+* Exception handling with `catch(const py::error_already_set& e)` sometimes works, sometimes not.
+  Suggestions how to fix that are welcomed.
 
 ## Links
 * [pybind11 docs](https://pybind11.readthedocs.io/)
