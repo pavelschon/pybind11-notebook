@@ -34,3 +34,9 @@ py_print(s);
 ## Remarks
 * The buildin function `py::print()` prints into the terminal where you're running jupyter notebook, hence using custom `py_print()`.
 * Exception handling with `catch(const py::error_already_set& e)` sometimes works, sometimes not. Suggestions how to improve it are welcomed.
+
+## Links
+* [pybind11 docs](https://pybind11.readthedocs.io/)
+* [pybind11 repo](https://github.com/pybind/pybind11)
+* [Xeus-Cling docs](https://xeus-cling.readthedocs.io/)
+* [Xeus-Cling repo](https://github.com/jupyter-xeus/xeus-cling)
