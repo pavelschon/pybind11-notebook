@@ -1,6 +1,9 @@
 # Jupyter Notebook running pybind11 program
 
 This document demonstrates how to run **pybind11** programs in Jupyter notebook in the most simple way using Xeus-Cling kernel.
+Sample programs here include:
+* simple Hello world program
+* Creating embedded module with `PYBIND11_EMBEDDED_MODULE` macro
 
 ## Setup
 ```bash
