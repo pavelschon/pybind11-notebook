@@ -77,5 +77,3 @@ py_print(py::module::import("hello").attr("world")());
 ## Links
 * [pybind11 docs](https://pybind11.readthedocs.io/)
 * [pybind11 repo](https://github.com/pybind/pybind11)
-* [Xeus-Cling docs](https://xeus-cling.readthedocs.io/)
-* [Xeus-Cling repo](https://github.com/jupyter-xeus/xeus-cling)
