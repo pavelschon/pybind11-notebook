@@ -73,6 +73,7 @@ py_print(py::module::import("hello").attr("world")());
   Suggestions how to redirect output of `py::print()` into the notebook are welcomed.
 * Exception handling with `catch(const py::error_already_set& e)` sometimes works, sometimes not.
   Suggestions how to fix that are welcomed.
+* The compiler seems to compile in Release mode. Enabling Debug mode would be beneficial, but how?
 
 ## Links
 * [pybind11 docs](https://pybind11.readthedocs.io/)
